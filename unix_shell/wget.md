@@ -6,6 +6,4 @@
 
 #### A simple example without any option:-
 
-    curl www.google.com
-
 #### Another example with header option:-
