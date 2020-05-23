@@ -12,7 +12,7 @@
 
 ## Ubuntu Installation
 
-### Add specific version (12 here) in repository and install using apt-get
+### Add specific version (e.g. 12.x here) in repository and install using apt-get
 
     curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
     sudo apt-get install -y nodejs
