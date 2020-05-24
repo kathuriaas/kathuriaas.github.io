@@ -2,7 +2,7 @@
 
 ## Windows Installation
 
-1. Go to link [https://nodejs.org/en/download](https://nodejs.org/en/download)
+1. Go to link <https://nodejs.org/en/download>
 2. Page will display options to download LTS version (this is the latest stable version of nodejs).
 3. Look for appropriate version as per your OS (32/64 bit).
 4. Choose .msi OR .zip file and click to download.
