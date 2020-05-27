@@ -9,12 +9,21 @@
 5. Once downloaded, unzip the zip file (for installation using .msi skip this step).
 6. zip file will extract all files and can be used directly without any installtion. Update your PATH environment variable to add the location, where you keep all unzipped files.
 7. If you downloaded .msi, click on the file to install and follow simple installation steps.
+8. This will install node and npm on the machine. npm is node package manager, used for download and install any module.
+9. Check the version of node and npm using below commands:-  
+
+```nodejs
+node -v
+npm -v
+```
 
 ## Ubuntu Installation
 
 ### Add specific version (e.g. 12.x here) in repository and install using apt-get
 
-    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-    sudo apt-get install -y nodejs
+```shell
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 
 ## Linux Installation
