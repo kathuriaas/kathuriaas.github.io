@@ -1,5 +1,7 @@
 # Install nodejs
 
+***To install and use multiple versions of nodejs on same machine, click [here](./install_nvm.md)***
+
 ## Windows Installation
 
 1. Go to link <https://nodejs.org/en/download>
