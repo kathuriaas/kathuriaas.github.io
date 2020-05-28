@@ -19,3 +19,12 @@
 - Unix Shell scripting
   - [cURL](https://kathuriaas.github.io/code-examples/unix_shell/curl)
   - [wget](https://kathuriaas.github.io/code-examples/unix_shell/wget)
+
+- Docker
+  - [Install Docker](https://kathuriaas.github.io/code-examples/docker/install_docker)
+  
+- Chef
+  - [Execute a script via chef](https://kathuriaas.github.io/code-examples/chef/execute_script)
+  
+- Open Shift
+  - [Execute a script via chef](https://kathuriaas.github.io/code-examples/openshift/install_openshift_client)
