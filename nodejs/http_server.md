@@ -1,8 +1,8 @@
 # http server in nodejs
 
-## Following are steps to create a very simple http server. We need http module, which is part of default installation of nodejs
+**Following are steps to create a very simple http server. We need http module, which is part of default installation of nodejs**
 
-## Please note:- nodejs should be already installed. If not, follow the [installation steps](./install_nodejs.md)
+**Please note:- nodejs should be already installed. If not, follow the [installation steps](./install_nodejs.md)**
 
 Create a file *app.js* at any location on your computer and add below code to it:
 
