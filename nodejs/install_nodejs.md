@@ -2,7 +2,7 @@
 
 ***To install and use multiple versions of nodejs on same machine, click [here](./install_nvm.md)***
 
-## Windows Installation
+## Windows
 
 1. Go to link <https://nodejs.org/en/download>
 2. Page will display options to download LTS version (this is the latest stable version of nodejs).
@@ -19,7 +19,7 @@ node -v
 npm -v
 ```
 
-## Ubuntu Installation
+## Ubuntu
 
 ### Add specific version (e.g. 12.x here) in repository and install using apt-get
 
@@ -28,4 +28,4 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-## Linux Installation
+## Linux

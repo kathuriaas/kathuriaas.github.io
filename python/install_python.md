@@ -1,6 +1,6 @@
 # Install Python
 
-## Windows Installation
+## Windows
 
 1. Go to link <https://www.python.org/downloads/windows/>
 2. Page will display options to download stable releases.
@@ -8,10 +8,10 @@
 4. This will download an installable (exe file) for windows.
 5. Click on downloaded ```.exe``` file to install python.
 6. Follow on-screen steps.
-7. On command prompt, type ```python --version``` to check version of python installed.
+7. Once installed, on command prompt, type ```python --version``` to check version of python installed.
 8. In case, it is showing different version OR not working, update PATH environment variable.
 
-## Ubuntu Installation
+## Ubuntu
 
 Install python 3.7 using below steps:-
 
@@ -25,7 +25,7 @@ Now, check python version using:-
 python --version
 ```
 
-If output of above results in a different version, follow below steps to use this version as default python version on your machine, :-
+If output of above results in a different version, follow below steps to use this version as default python version on your machine:-
 
 ```shell
 which python
@@ -45,4 +45,4 @@ Run below commands to point python to python3.7:-
 ln -s /usr/bin/python3.7 /usr/bin/python
 ```
 
-## Linux Installation
+## Linux

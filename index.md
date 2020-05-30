@@ -27,4 +27,4 @@
   - [Execute a script via chef](https://kathuriaas.github.io/code-examples/chef/execute_script)
   
 - Open Shift
-  - [Execute a script via chef](https://kathuriaas.github.io/code-examples/openshift/install_openshift_client)
+  - [Openshift client installation](https://kathuriaas.github.io/code-examples/openshift/install_openshift_client)
