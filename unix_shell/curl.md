@@ -1,11 +1,56 @@
-# cURL (client URL) is tool to communicate with a URL
+# cURL (client for URLs) is tool to transfer data using different protocols
 
-## How to use:-
+*curl is available on unix platform by default. It can also be used on windows with additional installation (e.g. git bash etc.). cURL can be used as a simple method to call **REST APIs** from command line. See man page of curl for more details.*
 
-### *curl is available on unix platform by default. It can also be used on windows with additional installation (e.g. git bash etc.)*
+*This page uses github api for demo. Look for documentation of API needed to use curl. Most of the REST API docuemtation are created with curl example.*
 
-#### A simple example without any option:-
+## Sample curl requests:-
 
-    curl www.google.com
+### A simple example without any option. Default is ```GET``` request:-
 
-#### Another example with header option:-
+```shell
+curl "https://api.github.com/users/kathuriaas"
+```
+
+### ```GET``` request returning head details (-I or --head):-
+
+```shell
+curl -I "https://api.github.com/users/kathuriaas"
+```
+
+More details for request and response headers can be viewed with ```-i (--include) and -v (--verbose)``` options.
+
+Following options are useful when making an HTTP request to a server:-
+
+- -X, --request - (Specify a custom request method e.g. ```GET,POST``` to use when communicating with the HTTP server)
+- -H, --header - Send header information (e.g. "Content-Type: application/json")  
+- -d, --data - Sends the specified data (can be json data, if -H has content type as json)  
+- -i, --include - Display response headers
+
+### ```POST``` request to create a github repo with token:-
+
+```shell
+curl -i -H "Authorization: token <paste github token here>" -d '{"name":"test_github_api", "auto_init": true, "private": true,
+"gitignore_template": "nanoc"}' "https://api.github.com/user/repos"
+```
+
+### ```POST``` request to create a github repo with username & password:-
+
+```shell
+curl -i -u "username:password" -d '{"name":"test_github_api", "auto_init": true, "private": true,
+"gitignore_template": "nanoc"}' "https://api.github.com/user/repos"
+```
+
+## Hide progress bar in a curl request:-
+
+curl output can show progress which needs to be hidden, sometimes. This can be done with ```-s (--silent)``` option, as mentioned below:-
+
+```shell
+curl -s "https://api.github.com/users/kathuriaas"|python -c 'import sys,json;print (json.load(sys.stdin)["login"])'
+```
+
+## Save output to a file using curl [use ```-O (--output)``` option]:-
+
+```shell
+curl -O data.json "https://api.github.com/users/kathuriaas"|python -c 'import sys,json;print (json.load(sys.stdin))'
+```
