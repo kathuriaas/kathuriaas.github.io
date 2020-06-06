@@ -7,13 +7,15 @@
 Create a file *app.js* at any location on your computer and add below code to it:
 
 ```nodejs
- var http = require('http');
+var http = require('http');
 
- httpServer = http.createServer(function(req,res){
+var reqListener = function(req,res){
     res.writeHead(200,{'Content-Type':'text/plain'});
     res.write('Hello World');
     res.end();
-    });
+    }
+
+httpServer = http.createServer(reqListener);
 
 httpServer.listen(8080);
 ```
