@@ -97,7 +97,7 @@ request(options, callback);
 
 ***Example 6 (Create Github Repo):-***
 
-<span style="color:green"> *Here body is equivalent to data parameter of curl. Since json is true, body must be a JSON object.* </span>
+<span style="color:green"> *Here body option is equivalent to data parameter of curl. Since json is true, body must be a JSON object.* </span>
 
 ```nodejs
 const request = require('request');
