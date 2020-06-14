@@ -61,15 +61,14 @@ curl output can show progress which needs to be hidden, sometimes. This can be d
 curl -s "https://api.github.com/users/kathuriaas"|python -c 'import sys,json;print (json.load(sys.stdin)["login"])'
 ```
 
-## Download a binary file using curl [use ```-o ``` option]:-
+## Download a binary file using curl [use ```-o``` option]:-
 
 ```shell
 curl -o node-v12.18.0-linux-x64.tar.xz "https://nodejs.org/dist/v12.18.0/node-v12.18.0-linux-x64.tar.xz"
 ```
 
-
-## Save output to a file using curl [use ```-O (--output)``` option]:-
+## Save output to a file (with name as source file) using curl [use ```-O (--output)``` option]:-
 
 ```shell
-curl -O data.json "https://api.github.com/users/kathuriaas"|python -c 'import sys,json;print (json.load(sys.stdin))'
+curl -O "https://api.github.com/users/kathuriaas"
 ```

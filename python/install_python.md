@@ -45,4 +45,10 @@ Run below commands to point python to python3.7:-
 ln -s /usr/bin/python3.7 /usr/bin/python
 ```
 
+Check if pip is working fine using ```pip --version```. If any issue, install pip:-
+
+```shell
+sudo apt install python3-pip
+```
+
 ## Linux

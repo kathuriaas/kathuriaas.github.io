@@ -28,9 +28,19 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
+### If we do not have root access, we can download and untar nodejs tar file and use it
+
+```shell
+curl -o node-v12.18.0-linux-x64.tar.xz "https://nodejs.org/dist/v12.18.0/node-v12.18.0-linux-x64.tar.xz"
+
+tar -xvf node-v12.18.0-linux-x64.tar.xz
+```
+
+Now add the path of above untar file (with ./bin path) to PATH environment variable.
+
 ## Linux
 
-### On Linux, if we do not have root access, we can download and untar nodejs tar file and use it
+### If we do not have root access, we can download and untar nodejs tar file to use it
 
 ```shell
 curl -o node-v12.18.0-linux-x64.tar.xz "https://nodejs.org/dist/v12.18.0/node-v12.18.0-linux-x64.tar.xz"
