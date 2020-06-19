@@ -4,6 +4,7 @@
   - [Execute script](https://kathuriaas.github.io/code-examples/chef/execute_script)
 
 - DOCKER
+  - [Docker cli](https://kathuriaas.github.io/code-examples/docker/docker_cli)
   - [Install docker](https://kathuriaas.github.io/code-examples/docker/install_docker)
 
 - NODEJS
@@ -14,6 +15,7 @@
   - [Http server](https://kathuriaas.github.io/code-examples/nodejs/http_server)
   - [Install nodejs](https://kathuriaas.github.io/code-examples/nodejs/install_nodejs)
   - [Install nvm](https://kathuriaas.github.io/code-examples/nodejs/install_nvm)
+  - [Settimeout](https://kathuriaas.github.io/code-examples/nodejs/setTimeOut)
 
 - OPENSHIFT
   - [Install openshift client](https://kathuriaas.github.io/code-examples/openshift/install_openshift_client)
@@ -26,6 +28,7 @@
   - [Oracle client installation](https://kathuriaas.github.io/code-examples/oracle_database/oracle_client_installation)
 
 - PYTHON
+  - [Generate index.py](https://kathuriaas.github.io/code-examples/python/generate_index.py)
   - [Install python](https://kathuriaas.github.io/code-examples/python/install_python)
   - [Requests module](https://kathuriaas.github.io/code-examples/python/requests_module)
 
