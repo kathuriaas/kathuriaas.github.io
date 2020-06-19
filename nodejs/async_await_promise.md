@@ -63,7 +63,7 @@ waitPromise();
 - If a callback based function is converted to a promise based function, it will, for sure return some value (resolved promise).
 - Below example is to convert a callback based function to promise
 
-***callback example (it returns undefined)***
+***callback example (it returns undefined, as return is executed even before callback completion)***
 
 ```nodejs
 const request = require('request');
