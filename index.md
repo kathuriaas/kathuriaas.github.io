@@ -28,7 +28,7 @@
   - [Oracle client installation](https://kathuriaas.github.io/code-examples/oracle_database/oracle_client_installation)
 
 - PYTHON
-  - [Generate index.py](https://kathuriaas.github.io/code-examples/python/generate_index.py)
+  - [Github repo contents](https://kathuriaas.github.io/code-examples/python/github_repo_contents)
   - [Install python](https://kathuriaas.github.io/code-examples/python/install_python)
   - [Requests module](https://kathuriaas.github.io/code-examples/python/requests_module)
 

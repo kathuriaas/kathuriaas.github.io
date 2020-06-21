@@ -1,6 +1,6 @@
 # Get contents of repo on github
 
-Get folder list on root of github repo and then list files under each directory
+Get folder list on root of github repo and then list files under each directory. Output of this script can be saved as a markdown file (.md)
 
 ```python
 import requests
