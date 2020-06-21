@@ -5,12 +5,7 @@
 import os
 import json
 
-user = ''
-password = ''
-
-#res = requests.get('https://api.github.com/repos/kathuriaas/code-examples/contents',auth=(user, password));
 git_pages_link='https://kathuriaas.github.io/code-examples/'
-#data_list = json.loads(res.text)
 
 print ('# What are you looking for today:-')
 print ('')
