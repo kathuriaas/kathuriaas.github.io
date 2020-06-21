@@ -65,11 +65,11 @@ docker images
 ## Get docker images details
 
 ```shell
-# List docker images
+# Docker image details
 docker image inspect <image_name or id>
 ```
 
-## Create container from image
+## Run container from image
 
 From an image, we can start a container and run the application needed.
 
@@ -78,7 +78,7 @@ From an image, we can start a container and run the application needed.
 docker run -t -i -d node_custom npm start
 
 # Docker run to create a container (ubuntu example)
-docker run -t -i -d ubuntu /bin/bash
+docker run -t -i -d --name my_ubuntu ubuntu /bin/bash
 
 # Docker run to create a container (ubuntu example) without command, that will use CMD (from dockerfile, specified during image creation) as default command
 docker run -t -i -d ubuntu
@@ -92,11 +92,32 @@ Options specified above:-
 -t is used to allocate a tty
 ```
 
-If you want the container to be removed automatically upon exit, use `-rm` option during docker run. e.g.
+If you want the container to be removed automatically upon exit, use `--rm` option during docker run. e.g.
 
 ```shell
 # container will be removed upon exit
-docker run -t -i -d -rm ubuntu
+docker run -t -i -d --rm ubuntu
+```
+
+## Create container without starting it
+
+```shell
+# Docker create container without starting it
+docker create -t -i ubuntu
+```
+
+## Start container
+
+```shell
+# Docker start container
+docker start <container name or ID>
+```
+
+## Stop container
+
+```shell
+# Docker start container
+docker stop container name or ID
 ```
 
 ## List docker containers
@@ -107,6 +128,26 @@ docker container ls
 
 # List all docker containers
 docker container ls -a
+
+# PS command can also be used to list containers
+docker ps -a
+```
+
+## Get docker container details
+
+```shell
+# Docker container details
+docker container inspect <container name or id>
+
+# We can look for IP address of container using above method. e.g.
+docker container inspect <container ID>|python -c 'import sys,json;print (json.load(sys.stdin)[0]["NetworkSettings"]["Networks"]["bridge"]["IPAddress"])'
+```
+
+## Connect to a container
+
+```shell
+# Connect container
+docker attach <container name or ID>
 ```
 
 ## Remove containers
