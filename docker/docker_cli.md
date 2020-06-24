@@ -106,6 +106,13 @@ docker run -t -i -d --rm ubuntu
 docker create -t -i ubuntu
 ```
 
+## Create image from container
+
+```shell
+# Docker commit to create a image from container, useful when container is started and modified and we want to same it to an image
+docker commit <container ID>  <image name/tag>
+```
+
 ## Start container
 
 ```shell
@@ -148,6 +155,13 @@ docker container inspect <container ID>|python -c 'import sys,json;print (json.l
 ```shell
 # Connect container
 docker attach <container name or ID>
+```
+
+## Run a command within a container
+
+```shell
+# Example to read a file within a container
+docker exec -it <container ID> cat <file on container>
 ```
 
 ## Remove containers
