@@ -153,8 +153,15 @@ docker container inspect <container ID>|python -c 'import sys,json;print (json.l
 ## Connect to a container
 
 ```shell
-# Connect container
+# Connect to a container
 docker attach <container name or ID>
+```
+
+If container is used for running a web application (like node/jenkins server etc.), we might not be able to attach to it, as bash terminal may not be available. So, we can run `exec` command in such case to open a new terminal.
+
+```shell
+# Open a new terminal to connect to a container
+docker exec -it <container ID> bash
 ```
 
 ## Run a command within a container
