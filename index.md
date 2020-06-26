@@ -7,6 +7,9 @@
   - [Docker cli](https://kathuriaas.github.io/code-examples/docker/docker_cli)
   - [Install docker](https://kathuriaas.github.io/code-examples/docker/install_docker)
 
+- JENKINS
+  - [Setup jenkins](https://kathuriaas.github.io/code-examples/jenkins/setup_jenkins)
+
 - NODEJS
   - [Async await promise](https://kathuriaas.github.io/code-examples/nodejs/async_await_promise)
   - [Call rest api](https://kathuriaas.github.io/code-examples/nodejs/call_rest_api)
