@@ -6,12 +6,14 @@
 
 #### A simple example to download static pages of a website:-
 
-    wget  
-    --recursive 
-    --no-clobber  
-    --page-requisites  
-    --html-extension  
-    --convert-links  
-    --restrict-file-names=windows  
-    --no-parent   
-    "<link to website>"
+```shell
+wget \
+--recursive \
+--no-clobber \
+--page-requisites \
+--html-extension \
+--convert-links \
+--restrict-file-names=windows \
+--no-parent \
+"https://kathuriaas.github.io/code-examples/"
+```
