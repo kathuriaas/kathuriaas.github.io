@@ -14,14 +14,14 @@ Jenkins docker image is available on Docker Hub [here](https://hub.docker.com/r/
 # Pull image from Docker Hub
 docker pull jenkins/jenkins
 
-# Verify jenkins image is availble locally
+# Verify jenkins image is available locally
 docker images
 ```
 
 ## Step 2 : Start container from image that will start Jenkins server
 
 We will start a container using image jenkins/jenkins:latest.  
-PORT 8080 of container will be published to port 8080 of host machine. So, jenkins page will be available at `localhost:8080`. `(-p host_port:container_port)`.  
+PORT 8080 of container will be published to port 8080 of host machine (`-p host_port:container_port`). So, jenkins page will be available at `localhost:8080`.  
 It will also mount jenkins_home volume in container.
 
 ```shell

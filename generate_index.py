@@ -18,7 +18,7 @@ for dir_file_name in content:
         file_list = os.listdir(dir_file_name)
         file_list.sort()
         for file_name in file_list:
-            file_name_display = file_name.replace('.md','').replace('_',' ').capitalize()
+            file_name_display = file_name.replace('.md','').replace('_',' ')
             file_path = git_pages_link + dir_file_name + '/' + file_name.replace('.md','')
             print('  - [' + file_name_display + '](' + file_path + ')')
         print ('')
