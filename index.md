@@ -1,7 +1,7 @@
 # What are you looking for today:-
 
 - CHEF
-  - [execute script](https://kathuriaas.github.io/code-examples/chef/execute_script)
+  - [setup chef-server](https://kathuriaas.github.io/code-examples/chef/setup_chef-server)
 
 - DOCKER
   - [docker cli](https://kathuriaas.github.io/code-examples/docker/docker_cli)
@@ -39,3 +39,4 @@
   - [curl](https://kathuriaas.github.io/code-examples/unix_shell/curl)
   - [json parsing](https://kathuriaas.github.io/code-examples/unix_shell/json_parsing)
   - [wget](https://kathuriaas.github.io/code-examples/unix_shell/wget)
+
