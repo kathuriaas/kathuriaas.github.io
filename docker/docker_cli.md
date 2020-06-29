@@ -80,6 +80,9 @@ docker run -t -i -d node_custom npm start
 # Docker run to create a container (ubuntu example)
 docker run -t -i -d --name my_ubuntu ubuntu /bin/bash
 
+# Docker run to with port mapping (useful for web apps)
+docker run -t -i -d -p host_port:container_port <NodeJS_image>
+
 # Docker run to create a container (ubuntu example) without command, that will use CMD (from dockerfile, specified during image creation) as default command
 docker run -t -i -d ubuntu
 ```
