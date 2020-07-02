@@ -4,7 +4,7 @@ Method here used to setup chef-server is by using docker image.
 
 ***Pre-requisites:-***
 
-To install a docker image, docker must be installed. Follow [Install docker](https://kathuriaas.github.io/code-examples/docker/install_docker) link for this.
+To install a docker image, docker must be installed. Follow [Install docker](../docker/install_docker) link for this.
 
 Chef-server docker image is available on Docker Hub [here](https://registry.hub.docker.com/r/base/chef-server/).
 
