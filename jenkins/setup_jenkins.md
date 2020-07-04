@@ -26,7 +26,7 @@ It will also mount jenkins_home volume in container.
 
 ```shell
 # Docker Run
-docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:latest
+docker run -d -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins
 ```
 
 ## Step 3 : Get initial admin password

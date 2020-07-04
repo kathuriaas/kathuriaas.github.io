@@ -4,7 +4,12 @@
 
 import os
 
-print ('# What are you looking for today:-')
+print ('# Code Examples')
+print ('')
+print('Single source of code examples of multiple programming languages.')
+print('Directory is added for each language/technology for example codes.')
+print('')
+print('Click on technology name below to go to code examples of that technology/language.')
 print ('')
 content = os.listdir('.')
 content_to_remove = ['.git','_layouts']
@@ -13,11 +18,5 @@ content.sort()
 for dir_file_name in content:
     if os.path.isdir(dir_file_name):
         dir_file_name_display = dir_file_name.replace('_',' ').upper()
-        print('- ' + dir_file_name_display)
-        file_list = os.listdir(dir_file_name)
-        file_list.sort()
-        for file_name in file_list:
-            file_name_display = file_name.replace('.md','').replace('_',' ')
-            file_path = dir_file_name + '/' + file_name.replace('.md','')
-            print('  - [' + file_name_display + '](' + file_path + ')')
-        print ('')
+        print('- [' + dir_file_name_display + '](' + dir_file_name + ')')
+        
