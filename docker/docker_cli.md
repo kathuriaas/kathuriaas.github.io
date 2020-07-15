@@ -51,6 +51,9 @@ docker build --tag node_custom .
 
 # Build docker image from git repo
 docker build --tag node_custom https://github.com/kathuriaas/docker_example.git#develop
+
+# Build docker image from git repo with code under a subfolder
+docker build --tag node_custom <repo_link>#<branch_name>:<folder_name>
 ```
 
 ## List docker images

@@ -5,6 +5,7 @@
 
 - DOCKER
   - [Dockerfiles](docker/Dockerfiles)
+  - [docker-compose](docker/docker-compose)
   - [docker cli](docker/docker_cli)
   - [install docker](docker/install_docker)
 
@@ -32,6 +33,7 @@
   - [oracle client installation](oracle_database/oracle_client_installation)
 
 - PYTHON
+  - [file read write](python/file_read_write)
   - [github repo contents](python/github_repo_contents)
   - [install python](python/install_python)
   - [requests module](python/requests_module)
