@@ -1,6 +1,6 @@
 # Read, write, modify files using python
 
-## Paste following code into a file called `files.py` and run `python files.py`
+Paste following code into a file called `files.py` and run `python files.py`
 
 This will create a file with name specified, write/read/append sample data into the file.
 
