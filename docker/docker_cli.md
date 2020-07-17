@@ -88,6 +88,14 @@ docker run -t -i -d -p host_port:container_port <NodeJS_image>
 
 # Docker run to create a container (ubuntu example) without command, that will use CMD (from dockerfile, specified during image creation) as default command
 docker run -t -i -d ubuntu
+
+# Docker run to create a container with environment variables (-e)
+docker run --name postgres_image -e POSTGRES_PASSWORD=test_password -d postgres
+
+# Docker run to create a container with environment variables in a file (--env-file)
+# Create a file env_file and add "POSTGRES_PASSWORD=test_password" to this file.
+docker run --name postgres_image --env-file env_file -d postgres
+
 ```
 
 Options specified above:-
