@@ -185,6 +185,16 @@ docker exec -it <container ID> bash
 docker exec -it <container ID> cat <file on container>
 ```
 
+## Copy files between host machine and container
+
+```shell
+docker cp  <source_file> <container_id>:<dest file>
+```
+
+```shell
+docker cp  <container_id>:<source_file> <dest file>
+```
+
 ## Remove containers
 
 ```shell
