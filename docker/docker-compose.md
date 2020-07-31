@@ -26,4 +26,6 @@ For linux, follow below steps:-
 
 `docker-compose.yml` is the file, which can be used to build multiple containers and start them in one go.
 
+For docker-compose documentation, click [here](https://docs.docker.com/compose/)
+
 An example repo is present [here](https://github.com/kathuriaas/docker-compose-examples) for sample docker-compose files for different type of services.
