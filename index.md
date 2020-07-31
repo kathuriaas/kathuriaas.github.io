@@ -1,5 +1,9 @@
 # What are you looking for today:-
 
+- ANSIBLE
+  - [ansible cli](ansible/ansible_cli)
+  - [setup ansible](ansible/setup_ansible)
+
 - CHEF
   - [setup chef-server](chef/setup_chef-server)
 
