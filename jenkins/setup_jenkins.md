@@ -8,6 +8,8 @@ To install a docker image, docker must be installed. Follow [Install docker](../
 
 Jenkins docker image is available on Docker Hub [here](https://hub.docker.com/r/jenkins/jenkins).
 
+To use docker-compose, click [here](https://github.com/kathuriaas/docker-compose-examples)
+
 ## Step 1 : Pull Jenkins docker image
 
 ```shell
