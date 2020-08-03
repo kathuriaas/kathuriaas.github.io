@@ -6,12 +6,10 @@ parent: ORACLE
 
 Below SQL can be used to find locks on objects in Oracle:-
 
-```SQL
-SELECT
-p.spid unix_spid,
-s.sid sid,
-p.addr,
-s.paddr,
+```sql
+# SQL Query to get lock details:-
+
+SELECT p.spid unix_spid,s.sid sid,p.addr,s.paddr,
 substr(s.username, 1, 10) username,
 substr(s.schemaname, 1, 10) schemaname,
 s.command command,
