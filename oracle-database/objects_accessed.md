@@ -5,6 +5,7 @@ parent: ORACLE
 # Objects accessed in an Oracle session:-
 
 ```sql
+
 set linesize 200
 set pagesize 300
 col object for a31
@@ -23,4 +24,5 @@ v$session b
 WHERE a.sid = b.sid
 AND a.owner = upper('&schema_name')
 order by object;
+
 ```
