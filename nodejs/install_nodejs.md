@@ -18,7 +18,7 @@ parent: NodeJS
 8. This will install node and npm on the machine. npm is node package manager, used for download and install any module.
 9. Check the version of node and npm using below commands:-  
 
-```nodejs
+```js
 node -v
 npm -v
 ```

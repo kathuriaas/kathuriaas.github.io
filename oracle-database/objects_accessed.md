@@ -4,7 +4,7 @@ parent: ORACLE
 ---
 # Objects accessed in an Oracle session:-
 
-```SQL
+```sql
 set linesize 200
 set pagesize 300
 col object for a31

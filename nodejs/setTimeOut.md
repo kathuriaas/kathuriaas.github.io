@@ -6,7 +6,7 @@ parent: NodeJS
 
 ## How to delay-start a function execution in nodeJS
 
-```nodejs
+```js
 setTimeout(function(){console.log('Delayed by 2 sec')},2000);
 ```
 

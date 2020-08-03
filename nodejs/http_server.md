@@ -10,7 +10,7 @@ Following are steps to create a very simple http server. We need http module, wh
 
 Create a file *app.js* at any location on your computer and add below code to it:
 
-```nodejs
+```js
 var http = require('http');
 
 var reqListener = function(req,res){
@@ -28,7 +28,7 @@ Above code will create an http server.
 
 Now, start your nodejs server using following command:-
 
-```nodejs
+```js
 node app.js
 ```
 

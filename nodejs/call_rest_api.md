@@ -12,7 +12,7 @@ Simplest way to call rest API is HTTP module. However, we rarely use this method
 
 ***Example 1:-***
 
-```nodejs
+```js
 # Code to fetch data from NASA API:-
 const request = require('request');
 
@@ -25,7 +25,7 @@ request('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY', { json: true }, 
 
 ***Example 2:-***
 
-```nodejs
+```js
 const request = require('request');
 
 const options = {
@@ -41,7 +41,7 @@ request(options, (err, res, body) => {
 
 ***Example 3:-***
 
-```nodejs
+```js
 const request = require('request');
 
 const options = {
@@ -60,7 +60,7 @@ request(options, callback);
 
 ***Example 4 (Get Github Repo):-***
 
-```nodejs
+```js
 const request = require('request');
 
 const options = {
@@ -83,7 +83,7 @@ request(options, callback);
 
 ***Example 5 (Get Github Repo):-***
 
-```nodejs
+```js
 const request = require('request');
 
 const options = {
@@ -106,7 +106,7 @@ request(options, callback);
 
 <span style="color:green"> *Here body option is equivalent to data parameter of curl. Since json is true, body must be a JSON object.* </span>
 
-```nodejs
+```js
 const request = require('request');
 
 const options = {
