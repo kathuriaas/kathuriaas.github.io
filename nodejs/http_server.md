@@ -2,9 +2,9 @@
 layout: default
 parent: NodeJS
 ---
-# HTTP server in nodejs
+# HTTP server
 
-**Following are steps to create a very simple http server. We need http module, which is part of default installation of nodejs**
+Following are steps to create a very simple http server. We need http module, which is part of default installation of nodejs.
 
 **Please note:- nodejs should be already installed. If not, follow the [installation steps](./install_nodejs.md)**
 

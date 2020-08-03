@@ -2,7 +2,9 @@
 layout: default
 parent: NodeJS
 ---
-# FS (file system) module in nodejs
+# File System Module
+
+## FS (file system) module in nodejs
 
 Following are steps to import and use file system module to interact with files on server. We need fs module, which is part of default installation of nodejs
 

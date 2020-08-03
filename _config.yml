@@ -3,3 +3,6 @@ relative_links:
   enabled:     true
   collections: true
 remote_theme:  "kathuriaas/just-the-docs"
+aux_links:
+  "Visit the repo GitHub":
+    - "//github.com/kathuriaas/kathuriaas.github.io"
