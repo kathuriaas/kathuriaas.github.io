@@ -2,9 +2,9 @@
 layout: default
 parent: NodeJS
 ---
-# Install nvm (Node Version Manager)
+# Install NVM
 
-NVM can be used to manage multiple node versions on same machine.
+NVM (Node Version Manager) can be used to manage multiple node versions on same machine.
 
 ## Windows
 

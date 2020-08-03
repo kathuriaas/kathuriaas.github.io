@@ -2,7 +2,9 @@
 layout: default
 parent: NodeJS
 ---
-# Async, Await and Promise in NODEJS
+# Async, Await & Promise
+
+## Async, Await and Promise in NODEJS examples
 
 ```await``` is used to wait for a ```Promise```. It can be used only inside an ```async``` function.
 
