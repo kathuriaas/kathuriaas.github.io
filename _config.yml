@@ -1,4 +1,5 @@
-title: Code Examples Collection
+title: Code Examples
 relative_links:
   enabled:     true
   collections: true
+remote_theme:  "kathuriaas/just-the-docs"

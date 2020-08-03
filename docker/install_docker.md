@@ -1,4 +1,8 @@
-# Docker installation
+---
+layout: default
+parent: DOCKER
+---
+# Docker Installation
 
 ## Ubuntu
 

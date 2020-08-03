@@ -1,4 +1,11 @@
-# What are you looking for today:-
+---
+layout: default
+title: Home
+nav_order: 1
+permalink: /
+---
+
+## INDEX:-
 
 - ANSIBLE
   - [ansible cli](ansible/ansible_cli)
@@ -46,4 +53,3 @@
   - [curl](unix_shell/curl)
   - [json parsing](unix_shell/json_parsing)
   - [wget](unix_shell/wget)
-

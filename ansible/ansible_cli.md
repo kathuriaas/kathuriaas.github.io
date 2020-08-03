@@ -1,4 +1,8 @@
-# Ansible examples
+---
+layout: default
+parent: ANSIBLE
+---
+# Ansible CLI
 
 Ansible can be used in 2 ways:-
 

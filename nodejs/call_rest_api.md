@@ -1,3 +1,7 @@
+---
+layout: default
+parent: NodeJS
+---
 # Different ways to call a REST API in NodeJS
 
 Simplest way to call rest API is HTTP module. However, we rarely use this method. Most of the other modules, use HTTP, to simplify REST API call. So, we will use other modules here.

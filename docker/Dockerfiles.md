@@ -1,3 +1,7 @@
+---
+layout: default
+parent: DOCKER
+---
 # Dockerfile examples
 
 Dockerfile is used to create custom docker images by specifying instructions in file exactly named as `dockerfile` (case -Insensitive, without extention). Openshift custom images with `docker` strategy can also be created using `dockerfile`.

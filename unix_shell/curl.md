@@ -1,4 +1,10 @@
-# cURL (client for URLs) is tool to transfer data using different protocols
+---
+layout: default
+parent: UNIX
+---
+# CURL in UNIX
+
+## cURL (client for URLs) is tool to transfer data using different protocols
 
 *curl is available on unix platform by default. It can also be used on windows with additional installation (e.g. git bash etc.). cURL can be used as a simple method to call **REST APIs** from command line. See man page of curl for more details.*
 

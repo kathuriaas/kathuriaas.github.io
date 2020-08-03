@@ -1,3 +1,7 @@
+---
+layout: default
+parent: JENKINS
+---
 # Setup Jenkins
 
 Jenkins can be installed locally. However, quickest method is to use docker image. So, we will follow this approach.

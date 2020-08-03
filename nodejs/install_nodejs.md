@@ -1,3 +1,7 @@
+---
+layout: default
+parent: NodeJS
+---
 # Install nodejs
 
 ***To install and use multiple versions of nodejs on same machine, click [here](./install_nvm.md)***

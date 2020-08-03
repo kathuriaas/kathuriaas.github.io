@@ -1,3 +1,7 @@
+---
+layout: default
+parent: NodeJS
+---
 # Different ways to write a function in nodeJS
 
 ## Method 1:-

@@ -1,3 +1,7 @@
+---
+layout: default
+parent: ORACLE
+---
 # Installation of Oracle Client
 
 - [Oracle 19c Client installation](#oracle-19c)
