@@ -6,7 +6,7 @@ parent: ORACLE
 
 ## Archive log history for last seven days:-
 
-```SQL
+```sql
 set numwidth 20
 set lines 200
 
@@ -24,7 +24,7 @@ where FIRST_TIME>sysdate-7;
 
 ## Hourly number of archives generated in last 7 days:-
 
-```SQL
+```sql
 SET LINES 200
 SELECT * FROM (
 SELECT * FROM (

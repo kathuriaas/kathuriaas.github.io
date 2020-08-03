@@ -7,7 +7,6 @@ parent: ORACLE
 Below SQL can be used to find locks on objects in Oracle:-
 
 ```sql
-# SQL Query to get lock details:-
 
 SELECT p.spid unix_spid,s.sid sid,p.addr,s.paddr,
 substr(s.username, 1, 10) username,
@@ -19,4 +18,5 @@ FROM v$session s, v$process p
 WHERE s.paddr=p.addr
 and s.sid in (SELECT SESSION_ID from v$locked_object)
 ORDER BY p.spid;
+
 ```

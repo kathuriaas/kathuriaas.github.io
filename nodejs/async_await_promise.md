@@ -8,7 +8,7 @@ parent: NodeJS
 
 ```await``` is used to wait for a ```Promise```. It can be used only inside an ```async``` function.
 
-```nodejs
+```js
 async function func_nm(){
     return_value = await <expression>
     }
@@ -22,7 +22,7 @@ async function func_nm(){
 
 ***Example 1:-***
 
-```nodejs
+```js
 function resolvePromise() {
   return new Promise(resolve => {
     setTimeout(() => {
@@ -43,7 +43,7 @@ func();
 
 ***Example 2:-***
 
-```nodejs
+```js
 const request = require('request');
 
 function resolvePromise() {
@@ -71,7 +71,7 @@ waitPromise();
 
 ***callback example (it returns undefined, as return is executed even before callback completion)***
 
-```nodejs
+```js
 const request = require('request');
 
 
@@ -92,7 +92,7 @@ waitReturn();
 
 ***conversion to promise example (it returns promised value)***
 
-```nodejs
+```js
 const request = require('request');
 
 function withPromise() {

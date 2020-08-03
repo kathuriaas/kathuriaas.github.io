@@ -22,7 +22,7 @@ Now, create a file `sample.html` at any location on your computer and add below 
 
 Create a file `app.js` at the same location on your computer and add below code to it:
 
-```nodejs
+```js
 var http = require('http');
 var fs = require('fs');
 
@@ -40,7 +40,7 @@ Above code will create an http server.
 
 Now, start your nodejs server using following command:-
 
-```nodejs
+```js
 node app.js
 ```
 
