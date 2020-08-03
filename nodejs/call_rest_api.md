@@ -13,6 +13,7 @@ Simplest way to call rest API is HTTP module. However, we rarely use this method
 ***Example 1:-***
 
 ```nodejs
+# Code to fetch data from NASA API:-
 const request = require('request');
 
 request('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY', { json: true }, (err, res, body) => {
