@@ -2,6 +2,8 @@
 layout: default
 title: ANSIBLE
 nav_order: 2
+has_children: true
+permalink: /ansible
 ---
 
 Ansible is a simple automation tool that can fit into existing infrastucture, without any major changes.
