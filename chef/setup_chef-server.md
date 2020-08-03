@@ -1,3 +1,7 @@
+---
+layout: default
+parent: CHEF
+---
 # Setup Chef-Server
 
 Method here used to setup chef-server is by using docker image.

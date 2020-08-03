@@ -1,3 +1,7 @@
+---
+layout: default
+parent: DOCKER
+---
 # Useful docker commands
 
 Documentation of all commands can be found [here.](https://docs.docker.com/reference/)

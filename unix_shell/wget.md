@@ -1,4 +1,10 @@
-# wget is used to communicate with a web address via http/https/ftp etc
+---
+layout: default
+parent: UNIX
+---
+# WGET in UNIX
+
+## wget is used to communicate with a web address via http/https/ftp etc
 
 ## How to use:-
 

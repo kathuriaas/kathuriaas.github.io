@@ -1,4 +1,10 @@
-# How to delay-start a function execution in nodeJS
+---
+layout: default
+parent: NodeJS
+---
+# Set Timeout in NodeJS
+
+## How to delay-start a function execution in nodeJS
 
 ```nodejs
 setTimeout(function(){console.log('Delayed by 2 sec')},2000);

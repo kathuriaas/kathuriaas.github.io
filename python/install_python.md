@@ -1,3 +1,7 @@
+---
+layout: default
+parent: PYTHON
+---
 # Install Python
 
 ## Windows
