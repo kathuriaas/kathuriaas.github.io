@@ -6,3 +6,4 @@ remote_theme:  "kathuriaas/just-the-docs"
 aux_links:
   "Visit the repo on GitHub":
     - "//github.com/kathuriaas/kathuriaas.github.io"
+aux_links_new_tab: true

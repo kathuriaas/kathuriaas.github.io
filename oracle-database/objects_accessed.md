@@ -2,10 +2,12 @@
 layout: default
 parent: ORACLE
 ---
-# Objects accessed in an Oracle session:-
+
+# Objects accessed
+
+Objects accessed in an Oracle session
 
 ```sql
-
 set linesize 200
 set pagesize 300
 col object for a31
@@ -19,10 +21,10 @@ a.sid,
 b.username,
 b.osuser,
 b.program
-FROM v$access a,
+FROM
+v$access a,
 v$session b
 WHERE a.sid = b.sid
 AND a.owner = upper('&schema_name')
 order by object;
-
 ```
