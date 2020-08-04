@@ -16,15 +16,21 @@ For linux, follow below steps:-
 
 1. Download compose:-
 
-    `sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
+    ```shell
+    sudo curl -L "https://github.com/docker/compose/releases/download/1.26.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+    ```
 
 2. Change executable permissions for docker-compose:-
 
-    `sudo chmod +x /usr/local/bin/docker-compose`
+    ```shell
+    sudo chmod +x /usr/local/bin/docker-compose
+    ```
 
 3. Verify `docker-compose` is available now using below command. If not, check your PATH environment variable.
 
-    `docker-compose -v`
+    ```shell
+    docker-compose -v
+    ```
 
 ## Create docker-compose.yml
 

@@ -2,7 +2,7 @@
 layout: default
 parent: NodeJS
 ---
-# Call REST API 
+# Call REST API
 
 ## Different ways to call a REST API in NodeJS
 
