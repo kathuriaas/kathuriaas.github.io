@@ -2,7 +2,7 @@
 layout: default
 parent: PYTHON
 ---
-# *Request module*
+# Requests Module
 
 requests module is used for REST API call
 

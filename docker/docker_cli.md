@@ -2,9 +2,9 @@
 layout: default
 parent: DOCKER
 ---
-# Useful docker commands
+# DockerCLI
 
-Documentation of all commands can be found [here.](https://docs.docker.com/reference/)
+Documentation of all docker commands can be found [here.](https://docs.docker.com/reference/)
 
 Commands mentioned here may require `sudo` as per system configuration.
 
