@@ -3,7 +3,7 @@ layout: default
 parent: ORACLE
 ---
 
-# Objects accessed
+# Objects Accessed
 
 Objects accessed in an Oracle session
 

@@ -2,7 +2,7 @@
 layout: default
 parent: UNIX
 ---
-# JSON parsing
+# JSON Parsing
 
 ## Parsing JSON data from standard input
 

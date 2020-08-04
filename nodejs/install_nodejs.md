@@ -2,7 +2,7 @@
 layout: default
 parent: NodeJS
 ---
-# Install nodejs
+# Install NodeJS
 
 ***To install and use multiple versions of nodejs on same machine, click [here](./install_nvm.md)***
 
