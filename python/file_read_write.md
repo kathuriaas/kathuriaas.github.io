@@ -2,7 +2,9 @@
 layout: default
 parent: PYTHON
 ---
-# Read, write, modify files using python
+# Python for OS files
+
+## Read, write, modify files using python
 
 Paste following code into a file called `files.py` and run `python files.py`
 

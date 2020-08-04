@@ -2,7 +2,9 @@
 layout: default
 parent: PYTHON
 ---
-# Get contents of repo on github
+# Get Github repo contents
+
+## Get contents of repo on github
 
 Get folder list on root of github repo and then list files under each directory. Output of this script can be saved as a markdown file (.md)
 
