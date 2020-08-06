@@ -15,7 +15,7 @@ permalink: /
 - [OPENSHIFT](openshift)
 - [ORACLE DATABASE](oracle-database)
 - [PYTHON](python)
-- [UNIX SHELL](unix_shell)
+- [UNIX SHELL](unix-shell)
 
 Before moving further, we should have a unix machine with root access. Examples on this website can be replicated on a unix machine, which has docker installed for some cases.
 
