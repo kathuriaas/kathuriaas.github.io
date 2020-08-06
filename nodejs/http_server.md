@@ -2,7 +2,7 @@
 layout: default
 parent: NodeJS
 ---
-# HTTP server
+# HTTP Server
 
 Following are steps to create a very simple http server. We need http module, which is part of default installation of nodejs.
 

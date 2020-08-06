@@ -2,7 +2,7 @@
 layout: default
 parent: DOCKER
 ---
-# Docker compose
+# Docker Compose
 
 Docker compose is dependent upon docker engine. To install docker, follow [Install docker](./install_docker) link for this.
 

@@ -2,7 +2,7 @@
 layout: default
 parent: DOCKER
 ---
-# DockerCLI
+# Docker CLI
 
 Documentation of all docker commands can be found [here.](https://docs.docker.com/reference/)
 

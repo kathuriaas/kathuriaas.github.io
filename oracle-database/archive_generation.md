@@ -2,7 +2,7 @@
 layout: default
 parent: ORACLE
 ---
-# Archive log generation
+# Archivelog Generation
 
 ## Archive log history for last seven days:-
 
