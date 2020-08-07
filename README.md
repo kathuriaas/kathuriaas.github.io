@@ -15,4 +15,4 @@ Click on technology name below to go to code examples of that technology/languag
 - [OPENSHIFT](openshift)
 - [ORACLE DATABASE](oracle_database)
 - [PYTHON](python)
-- [UNIX SHELL](unix_shell)
+- [UNIX](unix_shell)
