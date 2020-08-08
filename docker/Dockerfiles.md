@@ -6,7 +6,7 @@ parent: DOCKER
 
 Dockerfile is used to create custom docker images by specifying instructions in file exactly named as `dockerfile` (case -Insensitive, without extention). Openshift custom images with `docker` strategy can also be created using `dockerfile`.
 
-After creating the dockerfile, follow [docker cli documentation](https://kathuriaas.github.io/code-examples/docker/docker_cli) to create the image and start the container.
+After creating the dockerfile, follow [docker cli documentation](https://kathuriaas.github.io/docker/docker_cli) to create the image and start the container.
 
 ## Example 1:- ubuntu image with postgresql client
 
