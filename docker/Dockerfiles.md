@@ -42,4 +42,4 @@ RUN apt-get install -y postgresql-client
 CMD [ "node", "app.js" ]
 ```
 
-Above dockerfile can be kept along with your NodeJS application code. To test this, simple `Hello World` nodejs app is available on github [here](https://github.com/kathuriaas/docker_example.git).
+Above dockerfile can be kept along with your NodeJS application code. To test this, simple `Hello World` nodejs app is available on github [here](https://github.com/kathuriaas/docker_node_sample).
