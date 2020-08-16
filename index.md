@@ -5,7 +5,12 @@ nav_order: 1
 permalink: /
 ---
 
-## Table of Contents
+## Useful github repos to look for
+
+- [Docker Compose Examples](https://github.com/kathuriaas/docker-compose-examples)
+- [Ansible Examples](https://github.com/kathuriaas/ansible-examples)
+
+## Index
 
 - [ANSIBLE](ansible)
 - [CHEF](chef)
@@ -31,9 +36,9 @@ Follow below steps to create a new VM on GCP:-
 - Now, login to Google Cloud Console link [here](https://console.cloud.google.com/).
 - On left top corner of page, look for menu and search for VM Instances.
 - Click `Create Instance`.
-- Provde details and choose options, as per need.
+- Provide details and choose options, as per need.
 - Click `create`.
-- You are now ready with you machine.
+- You are now ready with your machine.
 - Now, connect to your VM instance using instructions [here](https://cloud.google.com/compute/docs/instances/connecting-to-instance).
 
 ### AWS EC2
