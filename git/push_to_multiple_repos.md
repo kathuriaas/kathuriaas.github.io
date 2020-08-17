@@ -16,11 +16,17 @@ Follow below steps to achieve this. We will assume an existing repo on github ha
 ## Create new repositories
 
 ```text
-Login to codecommit and create a new repository, to be used as backup of existing github repo.
+Login to gitlab and create a new repository, to be used as backup of existing github repo.
 ```
 
 ```text
-You may also create one more repo (e.g. on gitlab) for backup.
+You may also create one more repo (e.g. on codecommit) for backup.
 ```
 
-Copy URLs of repositories.
+Copy URLs of repositories. These will be used later.
+
+## Clone primary repo
+
+Now, clone the repository from github, for which backup is needed.
+
+## 
