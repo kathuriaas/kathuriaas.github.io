@@ -22,3 +22,5 @@ Login to codecommit and create a new repository, to be used as backup of existin
 ```text
 You may also create one more repo (e.g. on gitlab) for backup.
 ```
+
+Copy URLs of repositories.
