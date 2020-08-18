@@ -15,6 +15,7 @@ permalink: /
 - [ANSIBLE](ansible)
 - [CHEF](chef)
 - [DOCKER](docker)
+- [GIT](git)
 - [JENKINS](jenkins)
 - [NODEJS](nodejs)
 - [OPENSHIFT](openshift)
