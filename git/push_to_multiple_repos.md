@@ -30,7 +30,7 @@ Copy URLs of repositories. These will be used later.
 1. Now, clone the repository from github, for which backup is needed.
 2. `cd` to repo folder.
 3. Verify current remotes using `git remote -v`.
-4. Add a new remote for multiple push. You may use existing remote as well (e.g. origin).
+4. Add a new remote for multiple push. You may use existing remote as well (e.g. origin), you can skip this step if using existing remote.
 
     ```shell
     git remote add push-all <remote url of github>.
