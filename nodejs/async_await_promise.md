@@ -1,7 +1,6 @@
 ---
 layout: default
 parent: NodeJS
-nav_order: 6
 ---
 # Async, Await & Promise
 

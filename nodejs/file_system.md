@@ -1,7 +1,6 @@
 ---
 layout: default
 parent: NodeJS
-nav_order: 4
 ---
 # File System Module
 
