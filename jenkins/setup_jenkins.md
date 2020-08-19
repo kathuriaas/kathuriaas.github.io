@@ -1,6 +1,7 @@
 ---
 layout: default
 parent: JENKINS
+nav_order: 1
 ---
 # Setup Jenkins
 

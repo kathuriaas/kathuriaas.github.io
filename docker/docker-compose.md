@@ -1,6 +1,7 @@
 ---
 layout: default
 parent: DOCKER
+nav_order: 3
 ---
 # Docker Compose
 

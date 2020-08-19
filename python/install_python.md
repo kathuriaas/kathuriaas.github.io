@@ -1,6 +1,7 @@
 ---
 layout: default
 parent: PYTHON
+nav_order: 1
 ---
 # Install Python
 

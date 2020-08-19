@@ -51,3 +51,11 @@ Copy URLs of repositories. These will be used later.
 7. Verify all git remotes using `git remote -v`.
 8. Now, run `git push push-all` to push changes to all remotes.
 9. Verify changes on github.com and gitlab.com. Branch checked-out on local will be available on github and gitlab.
+
+## Delete remote URLs:-
+
+Existing remote URL can be delete as follows:-
+
+```shell
+git remote set-url --delete --push <remote_name> <remote url>
+```
