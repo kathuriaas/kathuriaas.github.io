@@ -1,6 +1,7 @@
 ---
 layout: default
 parent: NodeJS
+nav_order: 1
 ---
 # Install NodeJS
 

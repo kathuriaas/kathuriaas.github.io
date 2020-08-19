@@ -1,6 +1,7 @@
 ---
 layout: default
 parent: ANSIBLE
+nav_order: 1
 ---
 # Setup Ansible
 
