@@ -5,7 +5,33 @@ nav_order: 1
 ---
 # Setup Ansible
 
-Ansible can be installed locally. However, quickest method is to use docker image. So, we will follow this approach.
+Ansible can be installed on Unix/Linux machines for control node.
+
+## Installation on local Unix/Linux machine:-
+
+### Step 1 : Install python
+
+Ansible needs python. To install it follow this [link](../python/install_python).
+
+### Step 2 : Create python virtual environment
+
+This step is optional. You may create a virtual environment for python, to keep development of your ansible playbooks separate. Follow this [link](../python/virtual_environment) to create a python virtual environment.
+
+### Step 3 : Install ansible module
+
+```shell
+pip install ansible
+```
+
+### Step 4 : Verify ansible
+
+Verify ansible installation:
+
+```shell
+ansible --version
+```
+
+## Installation as a docker image:-
 
 ***Pre-requisites:-***
 
@@ -13,7 +39,7 @@ To install a docker image, docker must be installed. Follow [Install docker](../
 
 For docker-compose documentation, click [here](https://docs.docker.com/compose/)
 
-## Step 1 : Create docker-compose file with name `docker-compose.yml`
+### Step 1 : Create docker-compose file with name `docker-compose.yml`
 
 There is no image on docker hub with ansible installed. So, we will install ansible on python image
 
@@ -32,7 +58,7 @@ networks:
     ansible_network:
 ```
 
-## Step 2 : Create dockerfile with name `dockerfile`
+### Step 2 : Create dockerfile with name `dockerfile`
 
 ```dockerfile
 FROM python:latest
@@ -43,7 +69,7 @@ RUN apt -y update && \
 CMD ["/bin/bash"]
 ```
 
-## Step 3 : Build ansible image and start container
+### Step 3 : Build ansible image and start container
 
 Keep both docker-compose.yml and dockerfile in same directory. Now run following commands from same directory (via shell):-
 
@@ -55,7 +81,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-## Step 4 : Connect ansible container and verify ansible
+### Step 4 : Connect ansible container and verify ansible
 
 ```shell
 docker exec -it ansible_container bash
