@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Ansible Playbooks
+title: Playbook Examples
 has_children: true
 parent: ANSIBLE
-permalink: /ansible-playbooks
+permalink: /playbook-examples
 nav_order: 3
 ---
 

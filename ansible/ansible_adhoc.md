@@ -1,9 +1,8 @@
 ---
 layout: default
 parent: ANSIBLE
-nav_order: 2
 ---
-# Ansible ad-hoc
+# Ansible Ad-hoc
 
 Ansible adhoc uses `ansible` command to perform simple tasks on multiple nodes:-
 

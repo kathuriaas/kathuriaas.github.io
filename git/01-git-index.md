@@ -6,4 +6,4 @@ has_children: true
 permalink: /git
 ---
 
-GIT is the most popula source code management tool.
+GIT is the most popular source code management tool.

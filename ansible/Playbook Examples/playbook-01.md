@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: Ansible Playbooks
+parent: Playbook Examples
 grand_parent: ANSIBLE
 ---
 
