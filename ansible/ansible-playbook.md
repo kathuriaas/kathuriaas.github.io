@@ -49,7 +49,7 @@ Create a file `test.yml` with below code for `command` module. `ansible-playbook
 
         - name: Print Output
           debug:
-            msg: "This is {{ cur_date.stdout }}"
+            var: cur_date.stdout
 ```
 
 Now, run below command to execute the playbook
@@ -57,3 +57,5 @@ Now, run below command to execute the playbook
 ```shell
 ansible-playbook -i ssh_server, -u ssh_user test.yml
 ```
+
+You can use `msg` parameter as well in debug module. For `debug` module, see details [here.](https://docs.ansible.com/ansible/latest/modules/debug_module.html)
