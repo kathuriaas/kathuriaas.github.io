@@ -1,7 +1,6 @@
 ---
 layout: default
 parent: ANSIBLE
-nav_order: 2
 ---
 # Ansible Playbook
 
