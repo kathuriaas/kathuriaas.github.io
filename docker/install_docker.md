@@ -69,7 +69,7 @@ Configure docker to run on system startup:-
 sudo systemctl enable docker
 ```
 
-### Using snap package (snap should be pre-installed). This will install docker and start daemon.
+### Using snap package (snap should be pre-installed). This will install docker and start daemon
 
 ```shell
 sudo snap install docker
