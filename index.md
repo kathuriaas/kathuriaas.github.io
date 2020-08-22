@@ -4,6 +4,7 @@ title: Home
 nav_order: 1
 permalink: /
 ---
+# Learning Hub
 
 This website has multiple topics. Click on the topic of your interest in the navigation menu on left (If you are using a mobile device, click on menu bar on top of this page).
 
