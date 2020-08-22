@@ -4,7 +4,7 @@ title: Home
 nav_order: 1
 permalink: /
 ---
-# Learning Hub
+# Platform for Learning with examples
 
 This website has multiple topics. Click on the topic of your interest in the navigation menu on left (If you are using a mobile device, click on menu bar on top of this page).
 
@@ -16,7 +16,7 @@ If you do not have a unix/linux machine, you can get one on any cloud vendor's p
 
 ### Google Cloud Platform VM Instance
 
-Google Cloud Platform (GCP) offers an ubuntu VM, with 1 GB RAM free for 1 year under `Google Cloud Free Tier` for new accunts. GCP also gives $300 free, which can be used for 3 months. This amount can be used to add more RAM to the VM. See this [link](https://cloud.google.com/free/docs/gcp-free-tier) for details. Go through this link carefully, to avoid any unexpected charges. Terms and conditions may be changed by GCP anytime.
+Google Cloud Platform (GCP) offers a VM (few OS options), with 1 GB RAM free for 1 year (now 3 months) under `Google Cloud Free Tier` for new accunts. GCP also gives $300 free, which can be used for 3 months. This amount can be used to add more RAM to the VM. See this [link](https://cloud.google.com/free/docs/gcp-free-tier) for details. Go through this link carefully, to avoid any unexpected charges. Terms and conditions may be changed by GCP anytime.
 
 Follow below steps to create a new VM on GCP:-
 
