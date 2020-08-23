@@ -8,11 +8,13 @@ permalink: /
 
 This website has multiple topics. Click on the topic of your interest in the navigation menu on left (If you are using a mobile device, click on menu bar on top of this page).
 
+There are some good example repositories also available, which can be cloned and used.
+
 ## Setup a Unix/Linux machine
 
-Before moving further, we should have a unix/linux machine with root access. Examples on this website can be replicated on a unix machine, which has docker installed for some cases.
+Before moving further, we should have a unix/linux machine with root access. Examples on this website can be replicated on a unix machine, which has docker installed for some cases. You can setup the machine using Virtual Box on a windows machine.
 
-If you do not have a unix/linux machine, you can get one on any cloud vendor's platform, which is generally free for 1 year (Now, 3 months for GCP).
+If you can't setup unix/linux machine locally, you can get one on any cloud vendor's platform, which is generally free for 1 year (Now, 3 months for GCP).
 
 ### Google Cloud Platform VM Instance
 
