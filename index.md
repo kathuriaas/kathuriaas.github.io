@@ -8,8 +8,6 @@ permalink: /
 
 This website has multiple topics. Click on the topic of your interest in the navigation menu on left (If you are using a mobile device, click on menu bar on top of this page).
 
-There are some good example repositories also available, which can be cloned and used.
-
 ## Setup a Unix/Linux machine
 
 Before moving further, we should have a unix/linux machine with root access. Examples on this website can be replicated on a unix machine, which has docker installed for some cases. You can setup the machine using Virtual Box on a windows machine.
@@ -18,7 +16,7 @@ If you can't setup unix/linux machine locally, you can get one on any cloud vend
 
 ### Google Cloud Platform VM Instance
 
-Google Cloud Platform (GCP) offers a VM (few OS options), with 1 GB RAM free for 1 year (now 3 months) under `Google Cloud Free Tier` for new accunts. GCP also gives $300 free, which can be used for 3 months. This amount can be used to add more RAM to the VM. See this [link](https://cloud.google.com/free/docs/gcp-free-tier) for details. Go through this link carefully, to avoid any unexpected charges. Terms and conditions may be changed by GCP anytime.
+Google Cloud Platform (GCP) offers a VM (few OS options), with 1 GB RAM free for 1 year (now 3 months) under `Google Cloud Free Tier` for new accounts. GCP also gives $300 free, which can be used for 3 months. This amount can be used to add more RAM to the VM. See this [link](https://cloud.google.com/free/docs/gcp-free-tier) for details. Go through this link carefully, to avoid any unexpected charges. Terms and conditions may be changed by GCP anytime.
 
 Follow below steps to create a new VM on GCP:-
 
