@@ -5,13 +5,13 @@ nav_order: 1
 ---
 # Setup Ansible
 
-Ansible can be installed on Unix/Linux machines for control node.
+Ansible can be installed on Unix/Linux machines for control node. In addition, we also need to have another linux machine, which will be accessible from control node via ssh.
 
 ## Installation on local Unix/Linux machine:-
 
 ### Step 1 : Install python
 
-Ansible needs python. To install it follow this [link](../python/install_python).
+Ansible needs python. To install python, follow this [link](../python/install_python).
 
 ### Step 2 : Create python virtual environment
 

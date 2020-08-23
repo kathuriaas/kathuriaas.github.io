@@ -1,4 +1,4 @@
-# Code Examples
+# Learning Hub
 
 Website:- <https://kathuriaas.github.io/>
 
