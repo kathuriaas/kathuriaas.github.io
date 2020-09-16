@@ -4,7 +4,7 @@ parent: UNIX
 ---
 # Base64 command
 
-`base64` command in UNIX can be used to generate auth headers from a username and password combination. Same command can be used to decode username and passwords. These auth headers are generally used in REST API calls in formart of `Basic <auth header>`.
+`base64` command in UNIX can be used to generate auth headers from a username and password combination. Same command can be used to decode username and passwords. These auth headers are generally used in REST API calls in format of `Basic <auth header>`.
 
 ## Generate auth headers:-
 
