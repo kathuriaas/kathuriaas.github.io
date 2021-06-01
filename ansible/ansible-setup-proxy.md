@@ -2,10 +2,11 @@
 layout: default
 parent: ANSIBLE
 ---
-# Ansible Role
+# Update proxy keys
 
 Ansible can update ssh proxy keys on existing target servers. Follow below steps on control node:-
 
+It is assumed that proxy keys are already working and need to be updated.
 
 ```shell
 mkdir $HOME/.ssh
