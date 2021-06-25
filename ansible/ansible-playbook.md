@@ -143,3 +143,34 @@ ansible-playbook -i ssh_server, -u ssh_user test.yml
 ```
 
 Verify on target node (ssh_server), file /tmp/scrip2.log has been created with output of date command.
+
+## Example 5 (WIN PING module):-
+
+Create a file `test.yml` with below code for `win_ping` module.
+
+```yml
+---
+    - name: Test Playbook
+      hosts: all
+      gather_facts: false
+      tasks:
+        - name: Test task
+          win_ping:
+```
+
+Now, run below command to execute the playbook (ensure to provide correct credentials in username and password fields)
+
+```shell
+export ANSIBLE_STDOUT_CALLBACK=debug
+export USER_NM=<username>
+export PASS_WD=<password>
+
+ansible-playbook \
+  -i win_server, \
+  -e "ansible_user=${USER_NM}" \
+  -e "ansible_password=${PASS_WD}" \
+  -e "ansible_winrm_server_cert_validation=ignore" \
+  -e "ansible_connection=winrm" \
+  -e "ansible_winrm_transport=ntlm" \
+  test.yml
+```
