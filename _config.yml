@@ -2,7 +2,7 @@ title: Learning Hub
 relative_links:
   enabled:     true
   collections: true
-remote_theme:  "kathuriaas/just-the-docs"
+remote_theme:  "just-the-docs/just-the-docs"
 aux_links:
   "Visit the repo on GitHub":
     - "//github.com/kathuriaas/kathuriaas.github.io"
